@@ -1,0 +1,20 @@
+# Python Basics Projects
+
+This repository contains my beginner Python projects.
+
+## Projects
+
+### 1. Hello Project
+•⁠  ⁠Prints basic messages
+•⁠  ⁠First Python practice
+
+### 2. Lesson 2 Mini Project
+•⁠  ⁠Takes user input (name, age)
+•⁠  ⁠Uses:
+  - upper() and lower()
+  - len()
+  - lists
+  - indexing
+
+## How to run
+Run any file using Python:
