@@ -21,6 +21,4 @@ It classifies the temperature as:
 •⁠  ⁠moderate
 •⁠  ⁠high
 
-It also checks:
-•⁠  ⁠whether the temperature is even or odd
-•⁠  ⁠whether it is above a certain threshold
+
