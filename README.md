@@ -4,10 +4,10 @@ This repository contains my Python learning journey and basic practice projects.
 
 ## Projects
 
-### Project 1 – Basic Input Program
+### Project 1 – Intro Input Program
 A simple program that takes input from the user and displays it.
 
-### Project 2 – Word and Number Practice
+### Project 2 – String Number Analyzer
 A program that works with strings and numbers, including:
 •⁠  ⁠user input
 •⁠  ⁠string length
