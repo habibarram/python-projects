@@ -4,7 +4,7 @@ This repository contains my Python learning journey and basic practice projects.
 
 ## Projects
 
-### Project 1 – Intro Input Program
+### Project 1 – Intro Output Program
 A simple program that takes input from the user and displays it.
 
 ### Project 2 – String Number Analyzer
