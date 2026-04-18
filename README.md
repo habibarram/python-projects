@@ -1,4 +1,4 @@
-# Python Practice
+# Python Projects
 
 This repository contains my Python learning journey and practice projects, focusing on problem-solving and core programming concepts.
 
