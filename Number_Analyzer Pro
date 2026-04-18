@@ -1,0 +1,62 @@
+num1=int(input("eneter first number: ").strip())
+num2=int(input("eneter second number: ").strip())
+num3=int(input("eneter third number: ").strip())
+#largest
+if num1>=num2 and num1>=num3 :
+    print(num1,"is the largest number ")
+elif num2>=num1 and num2>=num3 :
+    print(num2,"is the largest number ")
+else :
+    print(num3,"is the largest number ")
+#smallest
+if num1<=num2 and num1<=num3 :
+    print(num1,"is the smallest number ")
+elif num2<=num1 and num2<=num3 :
+    print(num2,"is the smallest number ")
+else :
+    print(num3,"is the smallest number ")
+#even or odd
+if num1 == 0:
+    print(num1,"is zero")
+if num2 == 0:
+    print(num2,"is zero")
+if num3 == 0:
+    print(num3,"is zero")
+if num1 % 2 == 0 and num1 > 0:
+    print(num1,"is a positive even number")
+elif num1 % 2 == 0 and num1 < 0:
+    print(num1,"is a negative even number")
+elif num1 % 2 != 0 and num1 > 0:
+    print(num1,"is a positive odd number")
+elif num1 % 2 != 0 and num1 < 0:
+    print(num1,"is a negative odd number")
+if num2 % 2 == 0 and num2 > 0:
+    print(num2,"is a positive even number")
+elif num2 % 2 == 0 and num2 < 0:
+    print(num2,"is a negative even number")
+elif num2 % 2 != 0 and num2 > 0:
+    print(num2,"is a positive odd number")
+elif num2 % 2 != 0 and num2 < 0:
+    print(num2,"is a negative odd number")
+if num3 % 2 == 0 and num3 > 0:
+    print(num3,"is a positive even number")
+elif num3 % 2 == 0 and num3 < 0:
+    print(num3,"is a negative even number")
+elif num3 % 2 != 0 and num3 > 0:
+    print(num3,"is a positive odd number")
+elif num3 % 2 != 0 and num3 < 0:
+    print(num3,"is a negative odd number")
+#special number
+if num1 != 0 and num1 % 2 == 0 and num1 % 3 == 0:
+    print("special num is found",num1) 
+if num2 != 0 and num2 % 2 == 0 and num2 % 3 == 0:
+    print("special num is found",num2)
+if num3 != 0 and num3 % 2 == 0 and num3 % 3 == 0:
+    print("special num is found",num3)
+#equal or different
+if num1 == num2 and num1 == num3:
+    print("all numbers are equal")
+elif num1 == num2 or num1 == num3 or num2 == num3:
+    print("two numbers are equal")
+else:
+    print("all numbers are different")
