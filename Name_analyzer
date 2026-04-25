@@ -1,0 +1,24 @@
+name=input("How many names do you want to eneter?  ")
+total = 0
+long_count = 0
+short_count = 0
+for i in range(int(name)):
+    name=input("Enter a name: ")
+    length=len(name)
+    if length>5:
+        print("Long name")
+        long_count += 1
+    else :
+        print("Short name")
+        short_count += 1
+    print("The name has",length,"characters")
+    if name[0] in "AEIOUaeiou":
+        print("The name starts with a vowel")
+    else :
+        print("The name does not start with a vowel")
+    total += 1
+print("Total names entered:", total)
+print("Number of long names:", long_count)
+print("Number of short names:", short_count)
+   
+
