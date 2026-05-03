@@ -1,0 +1,23 @@
+items=int(input("How many items do you want to add? "))
+item_list = []
+long_count = 0
+short_count = 0
+for i in range (items):
+    name_item=input("Enter item name: ")
+    item_list.append(name_item)
+for item in item_list :
+    lenght = len(item)
+    print(item)
+    print("Length:",lenght)
+    if lenght > 5 :
+        print("Long name")
+        long_count += 1
+    else :
+       print("Short name")
+       short_count += 1
+    if item[0] in "AEIOUaeiou":
+       print("Starts with vowel")
+       print()
+print("Total items:",items) 
+print("Long items:",long_count)
+print("short items:",short_count)   
