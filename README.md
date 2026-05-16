@@ -75,11 +75,22 @@ Features:
 
 ---
 
+### 7. Password Checker ⭐
+A program that validates passwords using loops and conditional logic.
+
+**Features:**
+- Uses a while loop for repeated input
+- Checks password length
+- Detects if the password contains at least one number
+- Uses boolean logic for validation
+- Continues asking until a valid password is entered
+
+
 ## 🧠 What I’m Learning
 
 •⁠  ⁠Core Python fundamentals (variables, input/output, data types)
 •⁠  ⁠Conditional logic (if / elif / else)
-•⁠  ⁠Loops (for loops)
+•⁠  ⁠Loops 
 •⁠  ⁠Working with strings and numbers
 •⁠  ⁠Basic data structures (lists)
 •⁠  ⁠Problem-solving and logical thinking
