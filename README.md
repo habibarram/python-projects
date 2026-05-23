@@ -85,6 +85,20 @@ A program that validates passwords using loops and conditional logic.
 - Uses boolean logic for validation
 - Continues asking until a valid password is entered
 
+---
+
+### 8. Bank Account Simulator ⭐
+A simple bank account program with password protection and menu options.
+
+*Features:*
+•⁠  ⁠Uses functions (⁠ def ⁠) and return values
+•⁠  ⁠Starts with a balance of 1000
+•⁠  ⁠Allows deposit and withdrawal
+•⁠  ⁠Checks current balance
+•⁠  ⁠Uses password protection
+•⁠  ⁠Locks account after 5 incorrect password attempts
+•⁠  ⁠Uses a while loop menu system
+
 
 ## 🧠 What I’m Learning
 
@@ -95,6 +109,9 @@ A program that validates passwords using loops and conditional logic.
 •⁠  ⁠Basic data structures (lists)
 •⁠  ⁠Problem-solving and logical thinking
 •⁠  ⁠Building small projects step by step
+•⁠  ⁠Functions (⁠ def ⁠) and return values
+•⁠  ⁠While loops and menu systems
+•⁠  ⁠Validation and boolean logic
 
 ---
 
