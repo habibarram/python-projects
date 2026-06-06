@@ -100,6 +100,21 @@ A simple bank account program with password protection and menu options.
 •⁠  ⁠Uses a while loop menu system
 
 
+---
+
+### 9. Library Book Manager ⭐
+A simple Object-Oriented Programming (OOP) project for managing library books.
+
+*Features:*
+•⁠  ⁠Uses classes and objects
+•⁠  ⁠Stores book title, author, and availability
+•⁠  ⁠Borrow books
+•⁠  ⁠Return books
+•⁠  ⁠Display book information
+•⁠  ⁠Updates availability status automatically
+•⁠  ⁠Uses methods and attributes
+•⁠  ⁠First OOP project
+
 ## 🧠 What I’m Learning
 
 •⁠  ⁠Core Python fundamentals (variables, input/output, data types)
