@@ -115,6 +115,40 @@ A simple Object-Oriented Programming (OOP) project for managing library books.
 •⁠  ⁠Uses methods and attributes
 •⁠  ⁠First OOP project
 
+---
+
+# 10. Student Record Manager
+
+A Python OOP project that manages student records using a class-based system.
+
+## Features
+
+- Add new students with name and age
+- Add grades to existing students
+- View all students with their grades and average
+- Search for a student by name
+- Input validation for grades (0-100)
+- Menu-driven interface
+
+## Concepts Used
+
+- Object-Oriented Programming (OOP)
+- Classes, objects, attributes, methods
+- `__init__` and `self`
+- Lists and list methods (append)
+- Functions with return values
+- Loops and conditional statements
+- Input validation
+- Menu systems
+
+## How to Run
+
+```bash
+python student_record_manager.py
+```
+
+## Menu Options
+
 ## 🧠 What I’m Learning
 
 •⁠  ⁠Core Python fundamentals (variables, input/output, data types)
@@ -126,7 +160,7 @@ A simple Object-Oriented Programming (OOP) project for managing library books.
 •⁠  ⁠Building small projects step by step
 •⁠  ⁠Functions (⁠ def ⁠) and return values
 •⁠  ⁠While loops and menu systems
-•⁠  ⁠Validation and boolean logic
+•⁠  ⁠Validation and Boolean logic
 
 ---
 
