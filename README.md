@@ -149,6 +149,47 @@ python student_record_manager.py
 
 ## Menu Options
 
+# 11. 🎬 Movie Collection Manager
+
+A Python OOP project that manages a personal movie collection.
+
+## ✨ Features
+•⁠  ⁠Add new movies with title, director, and release year
+•⁠  ⁠Mark movies as watched
+•⁠  ⁠View all movies in the collection
+•⁠  ⁠View only unwatched movies
+•⁠  ⁠Search for a movie by title
+•⁠  ⁠Menu-driven interface
+
+## 🧠 Concepts Used
+•⁠  ⁠Object-Oriented Programming (OOP)
+•⁠  ⁠Classes, objects, attributes, methods
+•⁠  ⁠⁠ __init__ ⁠ and ⁠ self ⁠
+•⁠  ⁠Boolean attributes and conditional logic
+•⁠  ⁠Lists and list methods (append)
+•⁠  ⁠Loops and conditional statements
+•⁠  ⁠Filtering objects by attribute
+•⁠  ⁠Menu systems
+
+## ▶️ How to Run
+```bash
+python movie_collection_manager.py
+1.⁠ ⁠Add new movie
+2.⁠ ⁠Mark movie as watched
+3.⁠ ⁠View all movies
+4.⁠ ⁠View unwatched movies
+5.⁠ ⁠Search movie by title
+6.⁠ ⁠Exit
+Enter your choice: 1
+Enter movie title: Inception
+Enter director name: Christopher Nolan
+Enter release year: 2010
+Movie added successfully.
+
+Enter your choice: 3
+Title: Inception
+
+
 ## 🧠 What I’m Learning
 
 •⁠  ⁠Core Python fundamentals (variables, input/output, data types)
