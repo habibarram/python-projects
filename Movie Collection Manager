@@ -1,0 +1,93 @@
+class Movie:
+    def _init_(self, title, director, year):
+        self.title = title
+        self.director = director
+        self.year = year
+        self.watched = False
+
+    def mark_watched(self):
+        self.watched = True
+
+    def display_info(self):
+        print("Title: " + self.title)
+        print("Director: " + self.director)
+        print("Year: " + str(self.year))
+        print("Watched: " + ("Yes" if self.watched else "No"))
+        print("-" * 20)
+
+
+movies = []
+
+while True:
+    print("\n1. Add new movie")
+    print("2. Mark movie as watched")
+    print("3. View all movies")
+    print("4. View unwatched movies")
+    print("5. Search movie by title")
+    print("6. Exit")
+    choice = input("Enter your choice: ")
+
+    if choice == '1':
+        title = input("Enter movie title: ")
+        director = input("Enter director name: ")
+        year = int(input("Enter release year: "))
+        movie = Movie(title, director, year)
+        movies.append(movie)
+        print("Movie added successfully.")
+
+    elif choice == '2':
+        if not movies:
+            print("No movies available.")
+            continue
+        title = input("Enter movie title: ")
+        student = None
+        for m in movies:
+            if m.title == title:
+                student = m
+                break
+        if not student:
+            print("Movie not found.")
+            continue
+        student.mark_watched()
+        print(title + " marked as watched.")
+
+    elif choice == '3':
+        if not movies:
+            print("No movies available.")
+            continue
+        for movie in movies:
+            movie.display_info()
+
+    elif choice == '4':
+        if not movies:
+            print("No movies available.")
+            continue
+        found = False
+        for movie in movies:
+            if movie.watched == False:
+                movie.display_info()
+                found = True
+        if not found:
+            print("No unwatched movies.")
+
+    elif choice == '5':
+        if not movies:
+            print("No movies available.")
+            continue
+        title = input("Enter movie title to search: ")
+        student = None
+        for m in movies:
+            if m.title == title:
+                student = m
+                break
+        if student:
+            student.display_info()
+        else:
+            print("Movie not found.")
+
+    elif choice == '6':
+        print("Exiting...")
+        break
+
+    else:
+        print("Invalid choice. Please try again.")
